@@ -6,7 +6,7 @@ import { HomeStackScreenProps } from "app/navigators"
 // import { useNavigation } from "@react-navigation/native"
 // import { useStores } from "app/models"
 
-interface HomeScreenProps extends HomeStackScreenProps<"Home"> {}
+interface HomeScreenProps extends HomeStackScreenProps<"Today"> {}
 
 export const HomeScreen: FC<HomeScreenProps> = observer(function HomeScreen() {
   // Pull in one of our MST stores
